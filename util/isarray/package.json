@@ -1,17 +1,14 @@
 {
   "name": "async.util.isarray",
+  "description": "async isarrayhelper method as module.",
   "main": "./index.js",
   "repository": "async-js/async.util",
-  "homepage": "https://github.com/async-js/async.util.isarray",
-  "bugs": {
-    "url": "https://github.com/async-js/async.util.isarray/issues"
-  },
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "version": "0.1.0",
+  "version": "0.3.0",
   "license": "MIT",
   "keywords": [
     "async.util",
