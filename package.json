@@ -7,7 +7,7 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./index.js",
   "repository": "async-js/async.util",
   "bugs": {
@@ -22,7 +22,8 @@
     "gulp": "~3.9.0",
     "jscs": "^1.13.1",
     "jshint": "~2.8.0",
-    "json-future": "~1.1.2"
+    "json-future": "~1.1.2",
+    "lodash.template": "~3.6.2"
   },
   "scripts": {
     "lint": "jshint util && jscs util",

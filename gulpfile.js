@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var path = require('path');
 var modulesPath = './util/';
 var pkg = require('./package.json');
+var template = require('lodash.template');
 var jsonFuture = require('json-future');
 
 function getFolders(dir) {
@@ -36,12 +37,9 @@ function generatePackage(name) {
 
         var structure = {
             name: 'async.util.' + name,
+            description: 'async ' + name + 'helper method as module.',
             main: './index.js',
-            repository: "async-js/async.util." + name,
-            homepage: "https://github.com/async-js/async.util." + name,
-            bugs: {
-                url: "https://github.com/async-js/async.util." + name + "/issues"
-            },
+            repository: "async-js/async.util." + name
         };
 
         ORIGINAL_FIELDS.forEach(function(field) {
@@ -54,6 +52,13 @@ function generatePackage(name) {
     var modulePackage = generateDefaultFields(name);
     modulePackage.keywords = generateKeywords(name);
     return modulePackage;
+}
+
+function generateReadme(name, dist) {
+    var filepath = path.resolve('module_template.md');
+    var tpl = fs.readFileSync(filepath).toString();
+    tpl = template(tpl)({name: name});
+    fs.writeFileSync(dist, tpl);
 }
 
 function copyMetaFiles(dist) {
@@ -70,6 +75,7 @@ gulp.task('package', function() {
     return getFolders(modulesPath).map(function(module) {
         var dist = path.resolve(modulesPath, module);
         jsonFuture.save(path.resolve(dist, 'package.json'), generatePackage(module));
+        generateReadme(module, path.resolve(dist, 'README.md'));
         copyMetaFiles(dist);
     });
 });
