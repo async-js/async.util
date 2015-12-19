@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/iojs', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/josefranciscoverdugambin/Projects/async.util/util/ensureasync',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package.tgz',
+9 verbose tar pack   '/Users/josefranciscoverdugambin/Projects/async.util/util/ensureasync' ]
+10 verbose tarball /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package.tgz
+11 verbose folder /Users/josefranciscoverdugambin/Projects/async.util/util/ensureasync
+12 info prepublish async.util.ensureasync@0.1.0
+13 verbose addLocalTarball adding from inside cache /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package.tgz
+14 silly cache afterAdd async.util.ensureasync@0.1.0
+15 verbose afterAdd /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package/package.json not in flight; writing
+16 verbose afterAdd /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package/package.json written
+17 silly publish { name: 'async.util.ensureasync',
+17 silly publish   main: './index.js',
+17 silly publish   repository: { type: 'git', url: 'https://github.com/async-js/async.util' },
+17 silly publish   homepage: 'https://github.com/async-js/async.util.ensureasync',
+17 silly publish   bugs: { url: 'https://github.com/async-js/async.util.ensureasync/issues' },
+17 silly publish   author:
+17 silly publish    { name: 'Kiko Beats',
+17 silly publish      email: 'josefrancisco.verdu@gmail.com',
+17 silly publish      url: 'https://github.com/Kikobeats' },
+17 silly publish   version: '0.1.0',
+17 silly publish   license: 'MIT',
+17 silly publish   keywords: [ 'async.util', 'ensureasync' ],
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'async.util.ensureasync@0.1.0',
+17 silly publish   scripts: {},
+17 silly publish   _shasum: 'acb020eadac82374e2d808ad26733c704ac93d06',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name async.util.ensureasync
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/async.util.ensureasync
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /Users/josefranciscoverdugambin/.npm/async.util.ensureasync/0.1.0/package.tgz
+25 verbose request uri https://registry.npmjs.org/async.util.ensureasync
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 4:30:18 PM
+28 verbose request using bearer token for auth
+29 verbose request id eae20e924f83d4b4
+30 http request PUT https://registry.npmjs.org/async.util.ensureasync
+31 http 403 https://registry.npmjs.org/async.util.ensureasync
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '95',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Sat, 19 Dec 2015 15:30:19 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1450539018.454906,VS0,VE969' }
+33 verbose request invalidating /Users/josefranciscoverdugambin/.npm/registry.npmjs.org/async.util.ensureasync on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : async.util.ensureasync
+35 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+35 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+35 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+36 verbose statusCode 403
+37 verbose pkgid async.util.ensureasync
+38 verbose cwd /Users/josefranciscoverdugambin/Projects/async.util/util/ensureasync
+39 error Darwin 15.2.0
+40 error argv "/usr/local/bin/iojs" "/usr/local/bin/npm" "publish"
+41 error node v4.2.2
+42 error npm  v2.14.7
+43 error code E403
+44 error "You cannot publish over the previously published version 0.1.0." : async.util.ensureasync
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]

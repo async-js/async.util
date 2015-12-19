@@ -1,0 +1,20 @@
+{
+  "name": "async.util.restparam",
+  "main": "./index.js",
+  "repository": "async-js/async.util",
+  "homepage": "https://github.com/async-js/async.util.restparam",
+  "bugs": {
+    "url": "https://github.com/async-js/async.util.restparam/issues"
+  },
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "async.util",
+    "restparam"
+  ]
+}
