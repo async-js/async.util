@@ -1,0 +1,32 @@
+{
+  "name": "async.util",
+  "description": "A set of helpers used across async methods",
+  "homepage": "https://github.com/async-js/async.util",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "version": "0.0.1",
+  "main": "./index.js",
+  "repository": "async-js/async.util",
+  "bugs": {
+    "url": "https://github.com/async-js/async.util/issues"
+  },
+  "keywords": [
+    "async-js",
+    "async.util"
+  ],
+  "devDependencies": {
+    "fs-extra": "~0.26.3",
+    "gulp": "~3.9.0",
+    "jscs": "^1.13.1",
+    "jshint": "~2.8.0",
+    "json-future": "~1.1.2"
+  },
+  "scripts": {
+    "lint": "jshint util && jscs util",
+    "test": "npm run lint"
+  },
+  "license": "MIT"
+}
