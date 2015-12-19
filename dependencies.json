@@ -1,0 +1,97 @@
+{
+  "applyeach": {
+    "async.util.restparam": "<%= version %>"
+  },
+  "arrayeach": {},
+  "asyncify": {
+    "async.util.isobject": "<%= version %>",
+    "async.util.restparam": "<%= version %>"
+  },
+  "concat": {},
+  "consolefn": {
+    "async.util.arrayeach": "<%= version %>",
+    "async.util.restparam": "<%= version %>"
+  },
+  "createtester": {},
+  "doparallel": {
+    "async.eachof": "<%= version %>"
+  },
+  "doparallellimit": {
+    "async.util.eachoflimit": "<%= version %>"
+  },
+  "doseries": {
+    "async.eachofseries": "<%= version %>"
+  },
+  "eachoflimit": {
+    "async.util.keyiterator": "<%= version %>",
+    "async.util.noop": "<%= version %>",
+    "async.util.once": "<%= version %>",
+    "async.util.onlyonce": "<%= version %>"
+  },
+  "ensureasync": {
+    "async.util.restparam": "<%= version %>",
+    "async.util.setimmediate": "<%= version %>"
+  },
+  "filter": {
+    "async.util.map": "<%= version %>"
+  },
+  "findgetresult": {},
+  "foreachof": {
+    "async.util.arrayeach": "<%= version %>",
+    "async.util.keys": "<%= version %>"
+  },
+  "identity": {},
+  "indexof": {},
+  "isarray": {},
+  "isarraylike": {
+    "async.util.isarray": "<%= version %>"
+  },
+  "isobject": {},
+  "keyiterator": {
+    "async.util.isarraylike": "<%= version %>",
+    "async.util.keys": "<%= version %>"
+  },
+  "keys": {},
+  "map": {},
+  "mapasync": {
+    "async.util.isarraylike": "<%= version %>",
+    "async.util.noop": "<%= version %>",
+    "async.util.once": "<%= version %>"
+  },
+  "nexttick": {
+    "async.util.setimmediate": "<%= version %>"
+  },
+  "noop": {},
+  "notid": {},
+  "once": {},
+  "onlyonce": {},
+  "parallel": {
+    "async.util.isarraylike": "<%= version %>",
+    "async.util.noop": "<%= version %>",
+    "async.util.restparam": "<%= version %>"
+  },
+  "queue": {
+    "async.util.arrayeach": "<%= version %>",
+    "async.util.isarray": "<%= version %>",
+    "async.util.map": "<%= version %>",
+    "async.util.noop": "<%= version %>",
+    "async.util.onlyonce": "<%= version %>",
+    "async.util.setimmediate": "<%= version %>"
+  },
+  "range": {
+    "async.util.map": "<%= version %>"
+  },
+  "reduce": {
+    "async.util.arrayeach": "<%= version %>"
+  },
+  "reject": {
+    "async.util.filter": "<%= version %>"
+  },
+  "restparam": {},
+  "setimmediate": {},
+  "times": {
+    "async.util.range": "<%= version %>"
+  },
+  "tobool": {},
+  "withoutindex": {}
+}

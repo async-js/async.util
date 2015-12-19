@@ -1,12 +1,17 @@
 'use strict';
 
-var fs = require('fs-extra');
 var gulp = require('gulp');
 var path = require('path');
-var modulesPath = './util/';
+var fs = require('fs-extra');
 var pkg = require('./package.json');
-var template = require('lodash.template');
 var jsonFuture = require('json-future');
+var template = require('lodash.template');
+
+var moduleDeps = JSON.parse(template(fs.readFileSync('./dependencies.json').toString())({
+    version: pkg.version}
+    ));
+
+var MODULES_PATH = './util/';
 
 function getFolders(dir) {
     return fs.readdirSync(dir)
@@ -46,6 +51,9 @@ function generatePackage(name) {
             structure[field] = pkg[field];
         });
 
+        if (Object.keys(moduleDeps[name]).length > 0)
+            structure.dependencies = moduleDeps[name];
+
         return structure;
     }
 
@@ -72,8 +80,8 @@ function copyMetaFiles(dist) {
 }
 
 gulp.task('package', function() {
-    return getFolders(modulesPath).map(function(module) {
-        var dist = path.resolve(modulesPath, module);
+    return getFolders(MODULES_PATH).map(function(module) {
+        var dist = path.resolve(MODULES_PATH, module);
         jsonFuture.save(path.resolve(dist, 'package.json'), generatePackage(module));
         generateReadme(module, path.resolve(dist, 'README.md'));
         copyMetaFiles(dist);
