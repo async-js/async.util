@@ -62,7 +62,7 @@ function generateReadme(name, dist) {
 }
 
 function copyMetaFiles(dist) {
-    var files = ['.editorconfig', '.jscsrc', '.jshintrc'];
+    var files = ['.editorconfig', '.jscsrc', '.jshintrc', '.gitignore'];
 
     files.forEach(function(file) {
         var metafile = path.resolve(file);
