@@ -8,12 +8,12 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "version": "0.4.0",
+  "version": "0.4.1",
   "license": "MIT",
   "dependencies": {
-    "async.util.isarraylike": "0.4.0",
-    "async.util.noop": "0.4.0",
-    "async.util.restparam": "0.4.0"
+    "async.util.isarraylike": "0.4.1",
+    "async.util.noop": "0.4.1",
+    "async.util.restparam": "0.4.1"
   },
   "keywords": [
     "async.util",
