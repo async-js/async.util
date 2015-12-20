@@ -1,10 +1,9 @@
 # async.util.findgetresult
 
-![Last version](https://img.shields.io/github/tag/async-js/findgetresult.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/async-js/findgetresult/master.svg?style=flat-square)](https://travis-ci.org/async-js/findgetresult)
-[![Dependency status](http://img.shields.io/david/async-js/findgetresult.svg?style=flat-square)](https://david-dm.org/async-js/findgetresult)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/findgetresult.svg?style=flat-square)](https://david-dm.org/async-js/findgetresult#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/findgetresult.svg?style=flat-square)](https://www.npmjs.org/package/findgetresult)
+![Last version](https://img.shields.io/github/tag/async-js/async.util.findgetresult.svg?style=flat-square)
+[![Dependency status](http://img.shields.io/david/async-js/async.util.findgetresult.svg?style=flat-square)](https://david-dm.org/async-js/async.util.findgetresult)
+[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/async.util.findgetresult.svg?style=flat-square)](https://david-dm.org/async-js/async.util.findgetresult#info=devDependencies)
+[![NPM Status](http://img.shields.io/npm/dm/async.util.findgetresult.svg?style=flat-square)](https://www.npmjs.org/package/async.util.findgetresult)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > async findgetresult helper method as module.

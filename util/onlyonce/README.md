@@ -1,10 +1,9 @@
 # async.util.onlyonce
 
-![Last version](https://img.shields.io/github/tag/async-js/onlyonce.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/async-js/onlyonce/master.svg?style=flat-square)](https://travis-ci.org/async-js/onlyonce)
-[![Dependency status](http://img.shields.io/david/async-js/onlyonce.svg?style=flat-square)](https://david-dm.org/async-js/onlyonce)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/onlyonce.svg?style=flat-square)](https://david-dm.org/async-js/onlyonce#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/onlyonce.svg?style=flat-square)](https://www.npmjs.org/package/onlyonce)
+![Last version](https://img.shields.io/github/tag/async-js/async.util.onlyonce.svg?style=flat-square)
+[![Dependency status](http://img.shields.io/david/async-js/async.util.onlyonce.svg?style=flat-square)](https://david-dm.org/async-js/async.util.onlyonce)
+[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/async.util.onlyonce.svg?style=flat-square)](https://david-dm.org/async-js/async.util.onlyonce#info=devDependencies)
+[![NPM Status](http://img.shields.io/npm/dm/async.util.onlyonce.svg?style=flat-square)](https://www.npmjs.org/package/async.util.onlyonce)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > async onlyonce helper method as module.

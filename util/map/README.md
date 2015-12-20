@@ -1,10 +1,9 @@
 # async.util.map
 
-![Last version](https://img.shields.io/github/tag/async-js/map.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/async-js/map/master.svg?style=flat-square)](https://travis-ci.org/async-js/map)
-[![Dependency status](http://img.shields.io/david/async-js/map.svg?style=flat-square)](https://david-dm.org/async-js/map)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/map.svg?style=flat-square)](https://david-dm.org/async-js/map#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/map.svg?style=flat-square)](https://www.npmjs.org/package/map)
+![Last version](https://img.shields.io/github/tag/async-js/async.util.map.svg?style=flat-square)
+[![Dependency status](http://img.shields.io/david/async-js/async.util.map.svg?style=flat-square)](https://david-dm.org/async-js/async.util.map)
+[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/async.util.map.svg?style=flat-square)](https://david-dm.org/async-js/async.util.map#info=devDependencies)
+[![NPM Status](http://img.shields.io/npm/dm/async.util.map.svg?style=flat-square)](https://www.npmjs.org/package/async.util.map)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > async map helper method as module.

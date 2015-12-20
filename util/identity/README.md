@@ -1,10 +1,9 @@
 # async.util.identity
 
-![Last version](https://img.shields.io/github/tag/async-js/identity.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/async-js/identity/master.svg?style=flat-square)](https://travis-ci.org/async-js/identity)
-[![Dependency status](http://img.shields.io/david/async-js/identity.svg?style=flat-square)](https://david-dm.org/async-js/identity)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/identity.svg?style=flat-square)](https://david-dm.org/async-js/identity#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/identity.svg?style=flat-square)](https://www.npmjs.org/package/identity)
+![Last version](https://img.shields.io/github/tag/async-js/async.util.identity.svg?style=flat-square)
+[![Dependency status](http://img.shields.io/david/async-js/async.util.identity.svg?style=flat-square)](https://david-dm.org/async-js/async.util.identity)
+[![Dev Dependencies Status](http://img.shields.io/david/dev/async-js/async.util.identity.svg?style=flat-square)](https://david-dm.org/async-js/async.util.identity#info=devDependencies)
+[![NPM Status](http://img.shields.io/npm/dm/async.util.identity.svg?style=flat-square)](https://www.npmjs.org/package/async.util.identity)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > async identity helper method as module.

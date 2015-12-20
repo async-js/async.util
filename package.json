@@ -7,7 +7,7 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "./index.js",
   "repository": "async-js/async.util",
   "bugs": {
