@@ -23,7 +23,7 @@
     "jscs": "^1.13.1",
     "jshint": "~2.8.0",
     "json-future": "~1.1.2",
-    "lodash.template": "~3.6.2"
+    "lodash.template": "~4.5.0"
   },
   "scripts": {
     "lint": "jshint util && jscs util",
